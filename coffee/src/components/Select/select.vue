@@ -44,6 +44,7 @@
 				this.classSelected = index
 				this.classShow = false
 				this.classRoate = false
+				this.$emit('selectItem', this.optionData[index]);
 			}
 		}
 	}
@@ -76,6 +77,8 @@
 		transition border-color .2s cubic-bezier(.645,.045,.355,1)
 		width 100%
 		cursor pointer
+	.el-input__inner:hover
+		border: 1px solid #999
 	.icon
 		position absolute
 		right 8px

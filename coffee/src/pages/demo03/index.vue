@@ -6,7 +6,7 @@
 		<div class="content">
 			
 			<div class="component">
-				<Selected :optionData="optionData"></Selected>
+				<Selected :optionData="optionData" v-on:selectItem="selectItem"></Selected>
 			</div>
 		</div>
 	</div>
@@ -26,6 +26,11 @@ export default{
 				value: 3,
 				text: '美女'
 			}],
+		}
+	},
+	methods: {
+		selectItem: function (data) {
+			console.log(data)
 		}
 	},
 	components: {
