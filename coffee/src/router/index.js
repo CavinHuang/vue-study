@@ -7,6 +7,7 @@ Vue.use(Router)
 import demo01 from '@/pages/demo01/index.vue'
 import demo02 from '@/pages/demo02/index.vue'
 import demo03 from '@/pages/demo03/index.vue'
+import demo04 from '@/pages/demo04/index.vue'
 
 export default new Router({
   routes: [{
@@ -25,5 +26,9 @@ export default new Router({
     path: '/demo03',
     name: 'DEMO03',
     component: demo03
+  }, {
+    path: '/demo04',
+    name: 'DEMO04',
+    component: demo04
   }]
 })
