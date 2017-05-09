@@ -8,6 +8,7 @@ import demo01 from '@/pages/demo01/index.vue'
 import demo02 from '@/pages/demo02/index.vue'
 import demo03 from '@/pages/demo03/index.vue'
 import demo04 from '@/pages/demo04/index.vue'
+import demo05 from '@/pages/demo05/index.vue'
 
 export default new Router({
   routes: [{
@@ -30,5 +31,9 @@ export default new Router({
     path: '/demo04',
     name: 'DEMO04',
     component: demo04
+  }, {
+    path: '/demo05',
+    name: 'DEMO05',
+    component: demo05
   }]
 })
