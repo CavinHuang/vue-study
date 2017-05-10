@@ -5,3 +5,6 @@
 [0508/205816.589:ERROR:process_info.cc(625)] range at 0x306aee00000000, size 0x20b fully unreadable
 [0508/205816.589:ERROR:process_info.cc(625)] range at 0x0, size 0x20b fully unreadable
 [0508/210004.450:ERROR:http_transport_win.cc(50)] WinHttpSendRequest: 操作超时  (0x2EE2)
+[0510/085746.730:ERROR:process_reader_win.cc(114)] NtOpenThread: {无法访问} 过程已请求访问一对象，但未给访问权限。  (0xc0000022)
+[0510/085747.245:ERROR:exception_snapshot_win.cc(87)] thread ID 18580 not found in process
+[0510/085747.245:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::Initialize failed
